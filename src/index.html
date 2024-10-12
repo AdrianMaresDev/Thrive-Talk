@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="custom.css">
 
     <!--FONTS-->
 
@@ -14,14 +15,15 @@
     <title>Thrive Talk | The Most Affordable & Effective Online Therapy</title>
 </head>
 
-<!--USING COLORS FOR LAYOUT VISIBILITY-->
-
 <body>
-    <header class="bg-red-400 md:text-md px-4 py-2 font-[Outfit] lg:px-16">
+
+    <!--Header/Nav Section-->
+
+    <header class="md:text-md lg:text-lg p-4 font-[Outfit] lg:px-16">
         <nav class="flex items-center justify-between">
             <div class="flex items-center gap-4">
-                <img class="w-32" src="images/thrivetalklogo.png" alt="logo image">
-                <ul id="nav-menu" class="hidden absolute left-0 top-[12%] w-full p-4 bg-blue-400 flex-col md:flex md:flex-row md:gap-8 md:static">
+                <img class="w-32 lg:w-36" src="images/thrivetalklogo.png" alt="logo image">
+                <ul id="nav-menu" class="hidden absolute left-0 top-[12%] w-full p-4 flex-col md:flex md:flex-row md:gap-8 lg:gap-12 md:static">
                     <li class="mb-2 md:mb-0">
                         <a href="#">About</a>
                     </li>
@@ -40,12 +42,28 @@
                 </ul>
             </div>
             <div class="flex items-center gap-4">
-                <button class="bg-green-500 rounded-full py-2 px-4">Find a Therapist</button>
+                <button class="bg-gradient-to-br from-lightBlue via-lightMint to-lightMint rounded-full py-2 px-4">Find a Therapist</button>
                 <svg id="menu-button" class="cursor-pointer md:hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
                 <svg id="close-button" class="cursor-pointer hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </div>
         </nav>
     </header>
+    <main>
+
+        <!--Hero Section-->
+        
+        <section class="flex font-[Outfit] p-4 lg:px-16 w-full">
+            <div class="mt-16">
+                <span class="text-gray-500 italic pb-2 block">24/7 Therapy & Support</span>
+                <h1 class="text-5xl pb-8">Mental Health Made <span class="text-primaryMint">Easy</span></h1>
+                <p class="w-[80%] pb-4 text-xl">At Thrive Talk, we believe that therapy should be accessible and affordable to everyone - without any stigma attached.</p>
+                <p class="w-[80%] pb-4 text-xl">We have a network with hundreds of licensed health professionals dedicated to providing you with supportive and personalized care.</p>
+                <p class="w-[80%] pb-8 text-xl">We've already helped thousands of people take control of their mental health and work towards nurturing themselves, and it's all 100% confidential.</p>
+                <button class="text-xl bg-gradient-to-br from-lightBlue via-lightMint to-lightMint rounded-full py-2 px-4">Get Started</button>
+            </div>
+            <img class="object-cover mr-4 max-h-[550px] w-[50%] rounded-2xl shadow-[15px_-15px_0_theme('colors.lightBlue')]" src="images/computer-vert.jpg" alt="woman using a laptop">
+        </section>
+    </main>
 
 <script src="main.js"></script>
 </body>
