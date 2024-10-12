@@ -21,28 +21,28 @@
         <nav class="flex items-center justify-between">
             <div class="flex items-center gap-4">
                 <img class="w-32" src="images/thrivetalklogo.png" alt="logo image">
-                <ul class="absolute left-0 top-[12%] w-full p-4 bg-blue-400 flex flex-col md:flex-row md:gap-8 md:static">
-                    <li class="mb-2">
+                <ul id="nav-menu" class="hidden absolute left-0 top-[12%] w-full p-4 bg-blue-400 flex-col md:flex md:flex-row md:gap-8 md:static">
+                    <li class="mb-2 md:mb-0">
                         <a href="#">About</a>
                     </li>
-                    <li class="mb-2">
+                    <li class="mb-2 md:mb-0">
                         <a href="#">Services</a>
                     </li>
-                    <li class="mb-2">
+                    <li class="mb-2 md:mb-0">
                         <a href="#">Testimonials</a>
                     </li>
-                    <li class="mb-2">
+                    <li class="mb-2 md:mb-0">
                         <a href="#">FAQ</a>
                     </li>
-                    <li class="mb-2">
+                    <li class="mb-2 md:mb-0">
                         <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="flex items-center gap-4">
                 <button class="bg-green-500 rounded-full py-2 px-4">Find a Therapist</button>
-                <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-                <svg class="hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <svg id="menu-button" class="cursor-pointer md:hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                <svg id="close-button" class="cursor-pointer hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </div>
         </nav>
     </header>
