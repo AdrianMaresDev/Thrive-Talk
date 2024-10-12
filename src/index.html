@@ -17,11 +17,11 @@
 <!--USING COLORS FOR LAYOUT VISIBILITY-->
 
 <body>
-    <header class="bg-red-400 md:text-md px-4 py-2 font-[Outfit] md:px-12 lg:px-16">
+    <header class="bg-red-400 md:text-md px-4 py-2 font-[Outfit] lg:px-16">
         <nav class="flex items-center justify-between">
             <div class="flex items-center gap-4">
                 <img class="w-32" src="images/thrivetalklogo.png" alt="logo image">
-                <ul class="absolute left-0 top-[15%] w-full p-4 bg-blue-400 flex flex-col md:flex-row md:gap-4 md:static">
+                <ul class="absolute left-0 top-[12%] w-full p-4 bg-blue-400 flex flex-col md:flex-row md:gap-8 md:static">
                     <li class="mb-2">
                         <a href="#">About</a>
                     </li>
@@ -39,7 +39,11 @@
                     </li>
                 </ul>
             </div>
-            <button class="bg-green-500 rounded-full py-2 px-4">Find a Therapist</button>
+            <div class="flex items-center gap-4">
+                <button class="bg-green-500 rounded-full py-2 px-4">Find a Therapist</button>
+                <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                <svg class="hidden" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </div>
         </nav>
     </header>
 
