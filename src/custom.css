@@ -2,7 +2,7 @@
 
 header li:hover {
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.5rem;
     text-decoration-color: #44AF93;
 }
 
