@@ -6,3 +6,11 @@ header li:hover {
     text-decoration-color: #44AF93;
 }
 
+.info-cards {
+    gap: 4rem;
+}
+
+.info-cards span {
+    margin: 0.5rem 0 0.5rem;
+}
+
