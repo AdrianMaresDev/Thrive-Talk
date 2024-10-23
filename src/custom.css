@@ -6,8 +6,17 @@ header li:hover {
     text-decoration-color: #44AF93;
 }
 
+.hover-button {
+    transition: color 0.2s ease;
+}
+
+.hover-button:hover {
+    color: #fff;
+}
+
 .info-cards {
-    gap: 4rem;
+    gap: 5rem;
+    max-width: 90%;
 }
 
 .info-cards span {
