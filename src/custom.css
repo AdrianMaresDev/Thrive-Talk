@@ -23,3 +23,6 @@ header li:hover {
     margin: 0.5rem 0 0.5rem;
 }
 
+.about-section {
+    max-width: 80%;
+}
