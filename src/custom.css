@@ -26,3 +26,20 @@ header li:hover {
 .about-section {
     max-width: 80%;
 }
+
+.about-section img {
+    max-width: 60%;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    .about-section img {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .about-section img {
+        max-width: 70%;
+    }
+}
