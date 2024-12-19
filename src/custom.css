@@ -23,13 +23,9 @@ header li:hover {
     margin: 0.5rem 0 0.5rem;
 }
 
-.about-section {
-    max-width: 80%;
-}
-
 .about-section img {
     max-width: 60%;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 @media (max-width: 768px) {
