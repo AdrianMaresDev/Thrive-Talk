@@ -111,7 +111,7 @@
         <!--More About Information-->
 
         <section class="about-section font-[Outfit] p-6">
-            <h3 class="text-4xl pb-2 text-center text-primaryMint">Finding the Right Fit</h3>
+            <h3 class="text-4xl pb-2 pt-6 text-center text-primaryMint">Finding the Right Fit</h3>
             <p class="text-4xl pb-8 text-center">Is online therapy right for you?</p>
             <p class="text-xl pb-4 px-4 text-center">There's no right or wrong reason to seek out professional help. Therapy, both online and in person, can be ideal for anyone seeking support in facing life's challenges.</p>
             <p class="text-xl px-4 text-center">Whether it's anxiety, depression, relationship struggles, or something else entirely, therapy can act as a safe space to express your thoughts and feelings. At ThriveTalk, we'll help you develop healthy coping strategies and work towards a happier and more fulfilling life together.</p>
@@ -120,12 +120,15 @@
 
         <!--Testimonial Section-->
 
-        <section class="text-center my-12 px-12 font-[Outfit]">
+        <section class="text-center my-12 px-12 font-[Outfit]" aria-label="Testimonial Section">
             <p class="text-4xl pb-8">Don't just take our word for it.</p>
-            <div class="flex items-center justify-evenly">
-                <svg id="testimonial-left-button" class="bg-primaryBeige rounded-full p-2 cursor-pointer" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#00000"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+
+            <div data-carousel class="carousel flex items-center justify-evenly px-20">
+                <svg data-carousel-button="prev" class="prev carousel-button bg-primaryBeige rounded-full p-2 cursor-pointer" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#00000"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+                
                 <!--First Testimonial-->
-                <div class="flex testimonial">
+            <div data-slides>
+                <div class="slide" data-active>
                     <span class="text-primaryMint text-7xl">"</span>
                     <div class="flex items-center flex-col">
                         <p class="text-2xl max-w-[40vw] pb-4">Thanks to this platform, I’ve been able to process emotions I’ve ignored for years. I finally found the clarity and tools I need to manage my stress.</p>
@@ -136,31 +139,35 @@
                     </div>
                     <span class="text-primaryMint text-7xl">"</span></p>
                 </div>
+                
                 <!--Second-->
-                <div class="hidden testimonial">
+                <div class="slide">
                     <span class="text-primaryMint text-7xl">"</span>
                     <div class="flex items-center flex-col">
                         <p class="text-2xl max-w-[40vw] pb-4">I love the flexibility of scheduling sessions around my busy life. It’s so convenient and having a therapist who listens without judgement has been life-changing.</p>
                         <div class="flex items-center gap-8 self-start pl-10">
-                            <img src="images/testimonial3.jpg" alt="testimonial avatar" class="rounded-full w-28">
+                            <img src="images/testimonial3.jpg" alt="second testimonial avatar" class="rounded-full w-28">
                             <span class="text-lg self-center">Written by Leon M. from Boston</span>
                         </div>
                     </div>
                     <span class="text-primaryMint text-7xl">"</span></p>
                 </div>
+               
                 <!--Third-->
-                <div class="hidden testimonial">
+                <div class="slide">
                     <span class="text-primaryMint text-7xl">"</span>
                     <div class="flex items-center flex-col">
                         <p class="text-2xl max-w-[40vw] pb-4">Being able to chat with my therapist between sessions helps me stay on track. This service has truly been a safe space for me to explore and heal at my own pace.</p>
                         <div class="flex items-center gap-8 self-start pl-10">
-                            <img src="images/testimonial2.jpg" alt="testimonial avatar" class="rounded-full w-28">
+                            <img src="images/testimonial2.jpg" alt="third testimonial avatar" class="rounded-full w-28">
                             <span class="text-lg self-center">Written by Karina B. from New York</span>
                         </div>
                     </div>
                     <span class="text-primaryMint text-7xl">"</span></p>
                 </div>
-                <svg id="testimonial-right-button" class="bg-primaryBeige rounded-full p-2 cursor-pointer" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#00000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+            </div>
+                
+                <svg data-carousel-button="next" class="next carousel-button bg-primaryBeige rounded-full p-2 cursor-pointer" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#00000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
             </div>
         </section>
 
