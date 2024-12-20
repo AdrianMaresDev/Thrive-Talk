@@ -646,10 +646,6 @@ video {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .flex {
   display: flex;
 }
@@ -682,32 +678,12 @@ video {
   max-width: 40vw;
 }
 
-.max-w-\[60\%\] {
-  max-width: 60%;
-}
-
-.max-w-\[90\%\] {
-  max-width: 90%;
-}
-
-.max-w-\[70\%\] {
-  max-width: 70%;
-}
-
-.flex-grow {
-  flex-grow: 1;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -754,15 +730,6 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.bg-lightMint {
-  --tw-bg-opacity: 1;
-  background-color: rgb(159 237 213 / var(--tw-bg-opacity));
-}
-
 .bg-primaryBeige {
   --tw-bg-opacity: 1;
   background-color: rgb(245 239 235 / var(--tw-bg-opacity));
@@ -771,11 +738,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-pastelMint {
-  --tw-bg-opacity: 1;
-  background-color: rgb(207 246 233 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-br {
@@ -819,6 +781,11 @@ video {
   padding-right: 3rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -827,11 +794,6 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .pb-2 {
@@ -852,14 +814,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .text-center {
@@ -920,12 +874,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px) {
-  .sm\:max-w-\[90\%\] {
-    max-width: 90%;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:static {
     position: static;
@@ -968,10 +916,6 @@ video {
     width: 80%;
   }
 
-  .md\:max-w-\[60\%\] {
-    max-width: 60%;
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1008,17 +952,8 @@ video {
     max-width: 70%;
   }
 
-  .lg\:max-w-\[60\%\] {
-    max-width: 60%;
-  }
-
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 }

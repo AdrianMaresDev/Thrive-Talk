@@ -8,8 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Homepage for an online therapy site built using TailwindCSS.",
   "devDependencies": {
     "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49"
   }
 }

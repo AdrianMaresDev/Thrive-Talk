@@ -10,6 +10,7 @@ module.exports = {
         lightBlue: '#CEE2E8',
         primaryBeige: '#F5EFEB',
         darkBeige: '#9C8881',
+        pastelMint: '#CFF6E9'
       }
     },
   },
