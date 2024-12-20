@@ -2,6 +2,7 @@ const menuIcon = document.getElementById('menu-button');
 const closeIcon = document.getElementById('close-button');
 const navMenu = document.getElementById('nav-menu');
 const buttons = document.querySelectorAll('[data-carousel-button]');
+const faqButtons = document.querySelectorAll('.faq-btn');
 
 
 //Navigation Menu Toggle
@@ -32,5 +33,18 @@ buttons.forEach (button => {
         
         slides.children[newIndex].dataset.active = true;
         delete activeSlide.dataset.active;
+    })
+});
+
+//FAQ Section
+faqButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+        } else {
+            content.classList.add('hidden');
+        }
     })
 });
